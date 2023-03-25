@@ -16,7 +16,7 @@ public class Datospersonales {
     private String nombre;
     private String apellido;
     private String mail;
-    private String telefono;
+    private int telefono;
 
     public long getId() {
         return id;
@@ -34,7 +34,7 @@ public class Datospersonales {
         return mail;
     }
     
-    public String getTelefono() {
+    public int getTelefono() {
         return telefono;
     }
     
@@ -50,7 +50,7 @@ public class Datospersonales {
         this.mail = mail;
     }
     
-    public void setTelefono(String telefono) {
+    public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
 }
